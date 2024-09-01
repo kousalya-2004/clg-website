@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to RMK College of Engineering and Technology</title>
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+    <link rel="stylesheet" href="styleV.css">
+    <script src="script.js"></script>
+    <style>
+        img{
+    width: 100%;
+    height: auto;
+}/*header*/
+
+* {
+padding: 0;
+margin: 0;
+font-family:sans-serif;
+}
+body
+{
+background-color:#d0efff;
+}
+ul {
+list-style: none;
+background: #3399ffb0;
+text-align: center;
+}
+ul li {
+display: inline-block;
+position: relative;
+}
+ul li a {
+display: block;
+padding: 20px 25px;
+color: #fff;
+text-decoration: none;
+text-align: center;
+font-size: 16px;
+}
+ul li ul.dropdown li {
+display: block;
+background: #3399FF;
+margin: 2px 0px;
+}
+ul li ul.dropdown {
+width:auto;
+background:#3399FF;
+position: absolute;
+z-index: 999;
+display: none;
+}
+ul li a:hover {
+background:#3300CC;/*blank*/
+}
+ul li:hover ul.dropdown{
+display: block;
+}
+
+@media only screen and (max-width: 480px){
+    html,body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+}
+.img-a{
+      float:left;
+      
+      margin-right: 20px;
+    }
+        /* CSS for blinking animation */
+        @keyframes blink {
+            25% { color: blue;}
+            75% { color: white;}
+        }
+
+        ul li a {
+            animation: blink 2s infinite; /* Apply blinking animation */
+        }
+        @keyframes fade {
+            0% { opacity: 0; }
+            25% { opacity: 1; }
+            75% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+
+        /* Apply animation to the slider */
+        .slider img {
+            position: absolute;
+            animation: fade 4s infinite; /* Adjust duration as needed */
+        }
+        /* CSS for slow-motion blinking animation */
+@keyframes slow-blink {
+    0% { opacity: 1; } /* Start with full opacity */
+    50% { opacity: 0.5; } /* Fade out */
+    100% { opacity: 1; } /* Fade in */
+}
+
+.img-a img {
+    animation: slow-blink 4s infinite; /* Adjust duration as needed */
+}
+/* CSS for color animation */
+@keyframes color-change {
+    0% { color: red; } /* Start with red color */
+    25% { color: blue; } /* Change to blue at 25% */
+    50% { color: green; } /* Change to green at 50% */
+    75% { color: orange; } /* Change to orange at 75% */
+    100% { color: purple; } /* Change to purple at 100% */
+}
+
+.text p {
+    animation: color-change 5s infinite; /* Apply color animation */
+}
+/**footer style**/
+.bottom-right {
+  position: absolute;
+  bottom:150px;
+  right: 16px;
+  color:white;
+}
+
+marquee {
+            width: 100%;
+            padding: 0;
+            color:red; /* Choose your text color */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d0efff;
+        }
+        .social-links {
+            position: fixed;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            background-color: #002366;
+            
+        }
+        .social-links a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        p{
+            color:white;
+        }
+        .middlesquare{
+        display: flex;
+        justify-content: space-around;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+       <img src ="top2.jpg.png"><!--header-->
+    </div><br>
+    <!--Marquee-->
+<marquee behavior="scroll" direction="left" loop="-1">
+    <h3>/ Affiliated to Anna University,Chennai.| Approved by AICTE ,New Delhi. | Accrediated by NBA.| NAAC 'A' Grade./</h3>
+</marquee>
+<ul>
+    <li><a href="main.html">Home</a></li>
+    <li>
+      <a href="#">About Us &#x25BE;</a>
+      <ul class="dropdown">
+        <li><a href="About the clg.html">About the college</a></li>
+        <li><a href="chairman.html">Chairman</a></li>
+        <li><a href="vice.html">Vice Chairman</a></li>
+        <li><a href="vision.html">Vision & Mission</a></li>
+        <li><a href="rules.html">Rules & Regulations</a></li>
+        <li><a href="management.html">Management</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#"> Facilities &#x25BE;<!--dropdown symbol--></a>
+      <ul class="dropdown">
+       <li><a href="Library.html">Library</a></li>
+       <li><a href="infrastructure .html">Infrastructure</a></li>
+       <li><a href="transport.html">Transport</a></li>
+      </ul>
+      </li>
+    <li><a href="coe.html">COE</a></li>
+    <li><a href="Admission.html">Admission</a></li>
+    <li><a href="Events.html">Events</a></li>
+    <li>
+        <a href="#"> Departments &#x25BE;<!--dropdown symbol--></a>
+        <ul class="dropdown">
+         <li><a href="departmentcse.html">CSE</a></li>
+         <li><a href="department ece.html">ECE</a></li>
+         <li><a href="#">AIDS</a></li>
+         <li><a href="#">MECH</a></li>
+         <li><a href="#">Cyber security</a></li>
+        </ul>
+        </li>
+        <li>
+        <a href="#"> Notes &#x25BE;<!--dropdown symbol--></a>
+        <ul class="dropdown">
+         <li><a href="#">CSE</a></li>
+         <li><a href="#">ECE</a></li>
+         <li><a href="#">AIDS</a></li>
+         <li><a href="#">MECH</a></li>
+         <li><a href="#">Cyber security</a></li>
+        </ul>
+        </li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="contact Us.html">Contact us</a></li>
+
+ </ul><!--home-->
+ <div class="container">
+    <div class="img-a">
+    <img src="Vice.jpg">
+    </div>
+    <div class="text">
+        <h2>VICE CHAIRMAN</h2>
+       <br>
+      <ol> <p ><i> &nbsp;Shri. R.M.Kishore is a Mechanical Engineer from the University of Madras and has acquired his Masters degree in Business administration from University of Huddersfield, UK. A young member of the team, who has been managing the RMK group of Educational Institutions.</i> </p><br>
+       
+        <p><i>With the full time participation of the Management and the guidance provided by learned professors, the college has achieved great heights in the field of technical education.        </i></p><br>
+          
+        <p><i> The Management believes that the nation needs not just engineers and professionals, but virtuous men & women who can be engineers and professionals. Integrity of character, and discipline are imparted to students to produce good citizens capable of utilizing their talents for our Nation.</i></p><br>
+      </ol>
+      </div>
+      <!--footer html-->
+
+<div>
+    <img src="foot.png" width="100%">
+    <!--<div class="bottom-right">
+        <a href="https://www.google.com/maps/place/RMK+College+of+Engineering+and+Technology+
+        (RMKCET)/@13.32409,80.1512006,15z/data=!4m2!3m1!1s0x0:0x61ce593720f3684b?sa=X
+        &ved=2ahUKEwjl5M6ekM6EAxUua2wGHVqUCCAQ_BJ6BAhSEAA">VIEW LOCATION</a>
+    </div>-->
+    </div>
+    
+    <div class="social-links">
+    <a href="https://www.facebook.com" target="_blank">&nbsp;<i class="fab fa-facebook"></i></a>
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <!-- Add more social media links and icons as needed -->
+    </div>
+    
+    <!-- Your main content goes here -->
+    
+    <!-- Include the Font Awesome CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to RMK College of Engineering and Technology</title>
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+    <link rel="stylesheet" href="styleV.css">
+    <script src="script.js"></script>
+    <style>
+        img{
+    width: 100%;
+    height: auto;
+}
+
+* {
+padding: 0;
+margin: 0;
+font-family:sans-serif;
+}
+body
+{
+background-color:#d0efff;
+}
+ul {
+list-style: none;
+background: #3399ffb0;
+text-align: center;
+}
+ul li {
+display: inline-block;
+position: relative;
+}
+ul li a {
+display: block;
+padding: 20px 25px;
+color: #fff;
+text-decoration: none;
+text-align: center;
+font-size: 16px;
+}
+ul li ul.dropdown li {
+display: block;
+background: #3399FF;
+margin: 2px 0px;
+}
+ul li ul.dropdown {
+width:auto;
+background:#3399FF;
+position: absolute;
+z-index: 999;
+display: none;
+}
+ul li a:hover {
+background:#3300CC;
+}
+ul li:hover ul.dropdown{
+display: block;
+}
+
+@media only screen and (max-width: 480px){
+    html,body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+}
+.img-a{
+      float:left;
+      
+      margin-right: 20px;
+    }
+        /* CSS for blinking animation */
+        @keyframes blink {
+            75% { color: white;}
+            25% { color: black;}
+        }
+
+        ul li a {
+            animation: blink 2s infinite; /* Apply blinking animation */
+        }
+/* CSS for color animation */
+@keyframes color-change {
+    0% { color: red; } /* Start with red color */
+    25% { color: blue; } /* Change to blue at 25% */
+    50% { color: green; } /* Change to green at 50% */
+    75% { color: orange; } /* Change to orange at 75% */
+    100% { color: purple; } /* Change to purple at 100% */
+}
+
+.row1{
+display: flex;
+justify-content: space-around;
+}
+.row2{
+display: flex;
+justify-content: space-around;
+}
+.row3{
+display: flex;
+justify-content: space-around;
+}
+.row4{
+display: flex;
+justify-content: space-around;
+}
+.row5{
+display: flex;
+justify-content: space-around;
+}
+img:hover {
+  opacity: 0.5;
+  color:black;
+}
+
+
+
+/*.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+ Clearfix (clear floats) 
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+/**footer style**/
+.bottom-right {
+  position: absolute;
+  bottom:150px;
+  right: 16px;
+  color:white;
+}
+
+marquee {
+            width: 100%;
+            padding: 10px;
+            color:red; /* Choose your text color */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d0efff;
+        }
+        .social-links {
+            position: fixed;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            background-color: #002366;
+            
+        }
+        .social-links a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        p{
+            color:white;
+        }
+        .middlesquare{
+        display: flex;
+        justify-content: space-around;
+        }
+</style>
+</head>
+<body>
+    <div>
+       <img src ="top2.jpg.png"><!--header-->
+    </div>
+     <!--Marquee-->
+<marquee behavior="scroll" direction="left" loop="-1">
+  <h3>/ Affiliated to Anna University,Chennai.| Approved by AICTE ,New Delhi. | Accrediated by NBA.| NAAC 'A' Grade./</h3>
+</marquee>
+<ul>
+    <li><a href="main.html">Home</a></li>
+    <li>
+      <a href="#">About Us &#x25BE;</a>
+      <ul class="dropdown">
+        <li><a href="About the clg.html">About the college</a></li>
+        <li><a href="chairman.html">Chairman</a></li>
+        <li><a href="vice.html">Vice Chairman</a></li>
+        <li><a href="vision.html">Vision & Mission</a></li>
+        <li><a href="rules.html">Rules & Regulations</a></li>
+        <li><a href="management.html">Management</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#"> Facilities &#x25BE;<!--dropdown symbol--></a>
+      <ul class="dropdown">
+       <li><a href="Library.html">Library</a></li>
+       <li><a href="infrastructure .html">Infrastructure</a></li>
+       <li><a href="transport.html">Transport</a></li>
+      </ul>
+      </li>
+    <li><a href="coe.html">COE</a></li>
+    <li><a href="Admission.html">Admission</a></li>
+    <li><a href="Events.html">Events</a></li>
+    <li>
+      <a href="#"> Departments &#x25BE;<!--dropdown symbol--></a>
+      <ul class="dropdown">
+       <li><a href="departmentcse.html">CSE</a></li>
+       <li><a href="department ece.html">ECE</a></li>
+       <li><a href="#">AIDS</a></li>
+       <li><a href="#">MECH</a></li>
+       <li><a href="#">Cyber security</a></li>
+      </ul>
+      </li>
+      <li>
+      <a href="#"> Notes &#x25BE;<!--dropdown symbol--></a>
+      <ul class="dropdown">
+       <li><a href="#">CSE</a></li>
+       <li><a href="#">ECE</a></li>
+       <li><a href="#">AIDS</a></li>
+       <li><a href="#">MECH</a></li>
+       <li><a href="#">Cyber security</a></li>
+      </ul>
+      </li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="contact Us.html">Contact us</a></li>
+
+ </ul><!--home-->
+
+
+
+ <br><br><br>
+<div class="row1">
+      <a href="link" ><img src="cognizant-coe.png" style="width:200px;height:200px;"></a>
+      <a href="link" ><img src="atos-coe.jpg" style="width:200px;height:200px;"></a>
+      <a href="link" ><img src="wipro-coe.png"  style="width:200px;height:200px;"></a>
+  </div>
+<br><br><br><hr><br><br><br>
+<div class="row2">
+    <a href="link" ><img src="kpit-coe.png" style="width:200px;height:200px;"></a>
+    <a href="link" ><img src="hitachi logo.png" style="width:200px;height:200px;"></a>
+</div> 
+<br><br><br><hr><br><br><br>
+<div class="row3">
+    <a href="link" ><img src="nttdata-coe.jpg" style="width:200px;height:200px;"></a>
+    <a href="link" ><img src="reliasoft-coe.jpg" style="width:200px;height:200px;"></a>
+    <a href="link" ><img src="tcs-coe.png" style="width:200px;height:200px;"></a>
+    </div>
+
+<br><br><br><hr><br><br><br>
+<div class="row4">
+    <a href="link" ><img src="kpit-coe.png" style="width:200px;height:200px;"></a>
+    <a href="link" ><img src="hitachi logo.png" style="width:200px;height:200px;"></a>
+</div> 
+<br><br><br><hr><br><br><br>
+<div class="row5">
+    <a href="link" ><img src="wipro-coe.png" style="width:200px;height:200px;"></a>
+</div> 
+<!--footer html-->
+
+<div>
+  <img src="foot.png" width="100%">
+  <!--<div class="bottom-right">
+      <a href="https://www.google.com/maps/place/RMK+College+of+Engineering+and+Technology+
+      (RMKCET)/@13.32409,80.1512006,15z/data=!4m2!3m1!1s0x0:0x61ce593720f3684b?sa=X
+      &ved=2ahUKEwjl5M6ekM6EAxUua2wGHVqUCCAQ_BJ6BAhSEAA">VIEW LOCATION</a>
+  </div>-->
+  </div>
+  
+  <div class="social-links">
+  <a href="https://www.facebook.com" target="_blank">&nbsp;<i class="fab fa-facebook"></i></a>
+  <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+  <!-- Add more social media links and icons as needed -->
+  </div>
+  
+  <!-- Your main content goes here -->
+  
+  <!-- Include the Font Awesome CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>

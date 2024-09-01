@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to RMK College of Engineering and Technology</title>
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        img{
+    width: 100%;
+    height: auto;
+    } /*header*/
+
+* {
+padding: 0;
+margin: 0;
+font-family:sans-serif;
+}
+/*body
+{
+background-color:#d0efff;
+}*/
+ul {
+list-style: none;
+background: #3399ffb0;
+text-align: center;
+}
+ul li {
+display: inline-block;
+position: relative;
+}
+ul li a {
+display: block;
+padding: 20px 25px;
+color: #fff;
+text-decoration: none;
+text-align: center;
+font-size: 16px;
+}
+ul li ul.dropdown li {
+display: block;
+background: #3399FF;
+margin: 2px 0px;
+}
+ul li ul.dropdown {
+width:auto;
+background:#3399FF;
+position: absolute;
+z-index: 999;
+display: none;
+}
+ul li a:hover {
+background:#3300CC;/*blank*/
+  }
+ul li:hover ul.dropdown{
+display: block;
+}
+
+@media only screen and (max-width: 480px){
+    html,body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+}
+.img-a{
+      float:left;
+      
+      margin-right: 20px;
+    }
+        /* CSS for blinking animation */
+        @keyframes blink {
+            25% { color: blue;}
+            75% { color: white;}
+        }
+
+        ul li a {
+            animation: blink 2s infinite; /* Apply blinking animation */
+        }
+
+.container {
+  text-align: center;
+  margin: 50px;
+  font-style: sans-serif;
+  color: brown;
+}
+.container1 {
+  text-align: center;
+  margin: 50px;
+  font-style: sans-serif;
+  color: black;
+
+}
+.container2 {
+  text-align: center;
+  margin: 10px;
+  font-style: sans-serif;
+  color: rgb(79, 73, 73);
+
+}
+hr {
+  border: 1px solid #ccc; 
+  margin: 20px 0; 
+
+}
+.container3 {
+  font-size: 16px; 
+  font-family: 'Arial', sans-serif; 
+  letter-spacing: 1px; 
+  line-height: 1.5;
+  margin-bottom: 50px;
+  color: rgb(79, 73, 73);
+  
+}
+
+hr{
+  margin-right: 50%;
+}
+.cont{
+  margin-top: 10%;
+}
+/**footer style**/
+.bottom-right {
+  position: absolute;
+  bottom:150px;
+  right: 16px;
+  color:white;
+}
+
+marquee {
+            width: 100%;
+            padding: 10px;
+            color:red; /* Choose your text color */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            /*background-color: #d0efff;*/
+        }
+        .social-links {
+            position: fixed;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            background-color: #002366;
+            
+        }
+        .social-links a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        p{
+            color:black;
+        }
+        .middlesquare{
+        display: flex;
+        justify-content: space-around;
+        }
+</style>
+</head>
+<body>
+    <div>
+       <img src ="top2.jpg.png"><!--header-->
+    </div>
+    <!--Marquee-->
+<marquee behavior="scroll" direction="left" loop="-1">
+  <h3>/ Affiliated to Anna University,Chennai.| Approved by AICTE ,New Delhi. | Accrediated by NBA.| NAAC 'A' Grade./</h3>
+</marquee>
+<ul>
+    <li><a href="main.html">Home</a></li>
+    <li>
+      <a href="#">About Us &#x25BE;</a>
+      <ul class="dropdown">
+        <li><a href="About the clg.html">About the college</a></li>
+        <li><a href="chairman.html">Chairman</a></li>
+        <li><a href="vice.html">Vice Chairman</a></li>
+        <li><a href="vision.html">Vision & Mission</a></li>
+        <li><a href="rules.html">Rules & Regulations</a></li>
+        <li><a href="management.html">Management</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#"> Facilities &#x25BE;<!--dropdown symbol--></a>
+      <ul class="dropdown">
+       <li><a href="Library.html">Library</a></li>
+       <li><a href="infrastructure .html">Infrastructure</a></li>
+       <li><a href="transport.html">Transport</a></li>
+
+      </ul>
+      </li>
+    <li><a href="coe.html">COE</a></li>
+    <li><a href="Admission.html">Admission</a></li>
+    <li><a href="Events.html">Events</a></li>
+    <li>
+      <a href="#"> Departments &#x25BE;<!--dropdown symbol--></a>
+      <ul class="dropdown">
+       <li><a href="departmentcse.html">CSE</a></li>
+       <li><a href="department ece.html">ECE</a></li>
+       <li><a href="#">AIDS</a></li>
+       <li><a href="#">MECH</a></li>
+       <li><a href="#">Cyber security</a></li>
+      </ul>
+      </li>
+      <li>
+      <a href="#"> Notes &#x25BE;<!--dropdown symbol--></a>
+      <ul class="dropdown">
+       <li><a href="#">CSE</a></li>
+       <li><a href="#">ECE</a></li>
+       <li><a href="#">AIDS</a></li>
+       <li><a href="#">MECH</a></li>
+       <li><a href="#">Cyber security</a></li>
+      </ul>
+      </li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="contact Us.html">Contact us</a></li>
+
+ </ul><!--home-->
+</section>
+<section>
+  <img src="about us.jpg" alt="about us">
+  <div class="container">
+    <h1>A Journey of a Thousand Miles Begins with a Single Step</h1>
+  </div>
+  <div class="container1">
+    <h1>RMK COLLEGE OF ENGINEERING AND TECHNOLOGY</h1>
+    <h2>(An Autonomous Institution)</h2>
+  </div>
+  <h1 class="padding-left">Overview</h1>
+  <hr>
+  <p class="container3">The RMK group of educational institutions began their educational services in the early nineties and for the past 25 years it is their sustained hard work and dedication that has carved on niche in the field of engineering education. RMK College of Engineering and Technology was established in 2008.</p>
+  <p class="container3">Our Institution is ranked in 251-
+    300 band in NIRF ranking and categorized as ‘Band C’ Institution in ARIIA
+    ranking during the year 2020. Our Institute has been awarded with “Platinum
+    Category” for the best industry linked Institution by AICTE-CII for the past three
+    years.</p>  
+    
+    <div style="width: 100%;">
+      <div style="width: 50%; height: 100px; float: left;"> 
+        <h1>Institute Vission</h1>
+        <hr>
+        “To educate the student community both by theory and practice to fit in with the society and to conquer tomorrow’s technology at global level with human values through our dedicated team.”
+      </div>
+      <div style="margin-left: 50%; height: 100px;"> 
+        <h1>Institute Mission</h1>
+        <hr>
+        “To provide world class education in engineering, technology and management, to foster research & development, to encourage creativity and promote innovation, to build leadership, intrapreneurship and entrepreneurship and to nurture teamwork and achieve stakeholders’ delight.”
+      </div>
+  </div>
+  <h1 class="cont">Accrediation</h1>
+  <hr style="margin-right: auto;">
+  <P style="margin-bottom:2%;">R.M.K. College of Engineering and Technology is promoted by Lakshmikanthammal Educational Trust, established in the year 1995 to render philanthropic and educational service to people living in rural areas bordering Tamil Nadu and Andhra Pradesh.
+  </p>
+  <p>The main objective of the trust is to foster quality technical and higher education, research and training in various branches of Engineering and Technology. The college is affiliated to Anna University and is certified under ISO 9001:2015 by TUVNORD, accredited by NAAC with A grade and all eligible programs are accredited by NBA.</P>
+    <h1 style="margin-top: 50px;">Approval</h1>
+    <hr>
+    <img src="approval.png" style="float: left;height:300px">
+    <h1 style="color:black; margin-top:30%;">About the Department</h1>
+    <hr>
+    <p>The Department of Electronics and Communication Engineering was started in the year 2008. The department has highly qualified and dynamic faculty members specialized in advanced areas. The department has good infrastructure and it imparts high quality education structured to meet the present day needs. The department has extensive interactions with Professional bodies IEEE, ISTE, IET and IEI.</p>
+       <p style="margin-top:2%;">The department has established 6 Centres of Excellence and signed 11 MOUs for industry linkage. The department is regularly organizing Conferences, Symposia, Training programs and Workshops which help to update the latest technologies. Our faculty members and students are engaged in publishing Papers, filing Patents and undertaking Research and Consultancy projects.</p>
+
+</section>
+<section>
+  
+</section>
+<!--footer html-->
+
+<div>
+  <img src="foot.png" width="100%">
+  <!--<div class="bottom-right">
+      <a href="https://www.google.com/maps/place/RMK+College+of+Engineering+and+Technology+
+      (RMKCET)/@13.32409,80.1512006,15z/data=!4m2!3m1!1s0x0:0x61ce593720f3684b?sa=X
+      &ved=2ahUKEwjl5M6ekM6EAxUua2wGHVqUCCAQ_BJ6BAhSEAA">VIEW LOCATION</a>
+  </div>-->
+  </div>
+  
+  <div class="social-links">
+  <a href="https://www.facebook.com" target="_blank">&nbsp;<i class="fab fa-facebook"></i></a>
+  <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+  <!-- Add more social media links and icons as needed -->
+  </div>
+  
+  <!-- Your main content goes here -->
+  
+  <!-- Include the Font Awesome CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>

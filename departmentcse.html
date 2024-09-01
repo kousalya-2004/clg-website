@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to RMK College of Engineering and Technology</title>
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <script src="script.js"></script>
+</head>
+<style>
+    body{
+     background-color: #d0efff;
+    }
+    img{
+    width: 100%;
+    height: auto;
+}
+
+* {
+padding: 0;
+margin: 0;
+font-family:sans-serif;
+}
+body
+{
+background-color:#fff;
+}
+ul {
+list-style: none;
+background: #3399ffb0;
+text-align: center;
+}
+ul li {
+display: inline-block;
+position: relative;
+}
+ul li a {
+display: block;
+padding: 20px 25px;
+color: #fff;
+text-decoration: none;
+text-align: center;
+font-size: 16px;
+}
+ul li a:hover{
+  text-decoration: underline;
+}
+ul li ul.dropdown li {
+display: block;
+background: #3399FF;
+margin: 2px 0px;
+}
+ul li ul.dropdown {
+width:auto;
+background:#fff;
+position: absolute;
+z-index: 999;
+display: none;
+}
+ul li a:hover {
+background:#3300CC;/*blank*/
+}
+ul li:hover ul.dropdown{
+display: block;
+}
+
+@media only screen and (max-width: 480px){
+    html,body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+}/**home**/
+.slider-width{
+  width:100%;
+  height:auto;
+}
+.slider {
+  width: 100%;
+  height: 510px;
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slider img:first-child {
+  z-index: 1;
+}
+
+.slider img:nth-child(2) {
+  z-index: 0;
+}
+          /* CSS for blinking animation */
+          @keyframes blink {
+           
+            25% { color:blue; }
+           
+            75% { color:white; }
+            
+        }
+
+        ul li a {
+            animation: blink 2s infinite; /* Apply blinking animation */
+        }
+        /**Department of Computer Science and Engineering**/
+        * {
+  box-sizing: border-box;
+}
+#text {
+  font-family: Arial;
+  font-size: 30px;
+}
+.head {
+  position: relative;
+  max-width: 5000px;
+  margin: auto;
+
+}
+.head .cse {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.cont p{
+   
+  margin:0 auto;
+  max-width: 800px;
+  font-size: large;
+ 
+}
+
+          /**footer style**/
+.bottom-right {
+  position: absolute;
+  bottom:150px;
+  right: 16px;
+  color:white;
+}
+
+marquee {
+            width: 100%;
+            padding: 10px;
+            color:red; /* Choose your text color */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#d0efff;
+        }
+        .social-links {
+            position: fixed;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            background-color: #002366;
+            
+        }
+        .social-links a {
+            display: block;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        p{
+            color:black;
+        }
+        .middlesquare{
+        display: flex;
+        justify-content: space-around;
+        }
+        
+
+    </style>
+<body>
+    <div>
+       <img src ="top2.jpg.png"><!--header-->
+    </div>
+     <!--Marquee-->
+<marquee behavior="scroll" direction="left" loop="-1">
+  <h3>/ Affiliated to Anna University,Chennai.| Approved by AICTE ,New Delhi. | Accrediated by NBA.| NAAC 'A' Grade./</h3>
+</marquee>
+<ul>
+    <li><a href="main.html">Home</a></li>
+    <li>
+      <a href="#">About Us &#x25BE;</a>
+      <ul class="dropdown">
+        <li><a href="About the clg.html">About the college</a></li>
+        <li><a href="chairman.html">Chairman</a></li>
+        <li><a href="vice.html">Vice Chairman</a></li>
+        <li><a href="vision.html">Vision & Mission</a></li>
+        <li><a href="rules.html">Rules & Regulations</a></li>
+        <li><a href="management.html">Management</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#"> Facilities &#x25BE;<!--dropdown symbol--></a>
+      <ul class="dropdown">
+       <li><a href="Library.html">Library</a></li>
+       <li><a href="infrastructure .html">Infrastructure</a></li>
+       <li><a href="transport.html">Transport</a></li>
+      </ul>
+      </li>
+    <li><a href="coe.html">COE</a></li>
+    <li><a href="Admission.html">Admission</a></li>
+    <li><a href="Events.html">Events</a></li>
+    <li>
+      <a href="#"> Departments &#x25BE;<!--dropdown symbol--></a>
+      <ul class="dropdown">
+       <li><a href="departmentcse.html">CSE</a></li>
+       <li><a href="department ece.html">ECE</a></li>
+       <li><a href="#">AIDS</a></li>
+       <li><a href="#">MECH</a></li>
+       <li><a href="#">Cyber security</a></li>
+      </ul>
+      </li>
+      <li>
+      <a href="#"> Notes &#x25BE;<!--dropdown symbol--></a>
+      <ul class="dropdown">
+       <li><a href="#">CSE</a></li>
+       <li><a href="#">ECE</a></li>
+       <li><a href="#">AIDS</a></li>
+       <li><a href="#">MECH</a></li>
+       <li><a href="#">Cyber security</a></li>
+      </ul>
+      </li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="contact Us.html">Contact us</a></li>
+
+ </ul><!--home-->
+
+<div class="head">
+  <img src="cseimg.png" alt="Notebook" style="width:100%;">
+  <div class="cse">
+    <h2 id="text">Department of Computer Science and Engineering</h2>
+  </div>
+</div>
+<br><br>
+<hr>
+<br><br>
+<div class="cont">
+<centre>
+  <h1 style="text-align: center;">ABOUT THE DEPARTMENT</h1>
+  <br><br>
+  <p><b>Engineering Knowledge: </b>Apply knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of complex engineering problems.</p> <br>
+<p><b>Problem Analysis: </b>Identify, formulate, research literature and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences and engineering sciences.</p> <br>
+<p><b>Design/ Development of Solutions:</b> Design solutions for complex engineering problems and design system components or processes that meet specified needs with appropriate consideration for public health and safety, cultural, societal and environmental considerations.</p><br>
+<p><b>Modern Tool Usage:</b>Create, select and apply appropriate techniques, resources and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.</p> <br>
+<p><b>The Engineer and Society:</b> Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to professional engineering practice.</p> <br>
+<p><b>Environment and Sustainability:</b> Understand the impact of professional engineering solutions in societal and environmental contexts and demonstrate knowledge of and need for sustainable development.</p> <br>
+<p><b>Ethics:</b> Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.</p> <br>
+<p><b>Individual and Team Work:</b> Function effectively as an individual, and as a member or leader in diverse teams and in multi-disciplinary settings.</p> <br>
+<p><b>Communication: </b>Communicate effectively on complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations and give and receive clear instructions.</p> <br>
+<p><b>Project Management and Finance:</b> Demonstrate knowledge and understanding of engineering and management principles and apply these to one‟s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.</p> <br>
+<p><b>Life-long Learning:</b> Recognize the need for and have the preparation and ability to Engage in independent and life- long learning in the broadest context of technological Change.</p> <br> <br>
+  <u><h1 style="text-align: center;"> VISION</h1></u>
+  <br>
+
+<p>To be a source of knowledge in the field of Computer Science and Engineering to cater to the growing need of industry and society.</p>
+
+<br>
+<u><h1 style="text-align: center;"> MISSION</h1></u>
+<br>
+<p>* To avail state-of-the art infrastructure for adopting cutting edge technologies and encouraging research activities.</p>
+<p>* To promote industrial collaborations for professional competency.</p>
+<p>* To nurture social responsibility and ethics to become worthy citizens.</p>
+<br> <br>
+<u><h2 style="text-align: center;">PROGRAM EDUCATIONAL OBJECTIVES</h2> <br></u>
+<p>Graduates of Computer Science and Engineering Program will</p>
+<br>
+<p><b>*</b> PEO I: Become globally competent professional in all spheres and pursue higher education world over.</p>
+<p><b>*</b> PEO II: Successfully carry forward domain knowledge in computing and allied areas to solve complex real world engineering problems.</p>
+<p><b>*</b> PEO III: Continuously upgrade their technical knowledge and expertise to keep pace with the technological revolution.</p>
+<p><b>*</b> PEO IV: Serve the humanity with social responsibility combined with ethics.</p>
+<br><br><br><br>
+
+</centre>
+
+</div>
+
+  <!--footer html-->
+
+<div>
+  <img src="foot.png" width="100%">
+  <!--<div class="bottom-right">
+      <a href="https://www.google.com/maps/place/RMK+College+of+Engineering+and+Technology+
+      (RMKCET)/@13.32409,80.1512006,15z/data=!4m2!3m1!1s0x0:0x61ce593720f3684b?sa=X
+      &ved=2ahUKEwjl5M6ekM6EAxUua2wGHVqUCCAQ_BJ6BAhSEAA">VIEW LOCATION</a>
+  </div>-->
+  </div>
+  
+  <div class="social-links">
+  <a href="https://www.facebook.com" target="_blank">&nbsp;<i class="fab fa-facebook"></i></a>
+  <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+  <!-- Add more social media links and icons as needed -->
+  </div>
+  
+  <!-- Your main content goes here -->
+  
+  <!-- Include the Font Awesome CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>
